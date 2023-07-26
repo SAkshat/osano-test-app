@@ -28,8 +28,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
         <script src="https://cmp.osano.com/16COqgTbuKRHb45MG/0500889f-7a62-4ff7-8696-728f8d8372ea/osano.js"></script>
         <script>
-          (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
+          (function (w, d, s, l, i) {w[l] = w[l] || [];
             w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
             let f = d.getElementsByTagName(s)[0],
               j = d.createElement(s),
