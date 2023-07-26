@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script src="https://cmp.osano.com/16COqgTbuKRHb45MG/0500889f-7a62-4ff7-8696-728f8d8372ea/osano.js"></script>
+        <script src="https://cmp.osano.com/16COqgTbuKRHb45MG/ba283f2c-2bbc-4da4-8901-9a78851d0dcf/osano.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
