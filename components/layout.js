@@ -28,15 +28,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
         <script src="https://cmp.osano.com/16COqgTbuKRHb45MG/0500889f-7a62-4ff7-8696-728f8d8372ea/osano.js"></script>
         <script>
-          (function temp (w, d, s, l, i) {w[l] = w[l] || [];
-            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-            let f = d.getElementsByTagName(s)[0],
-              j = d.createElement(s),
-              dl = l != "dataLayer" ? "&l=" + l : "";
-            j.async = true;
-            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-            f.parentNode.insertBefore(j, f);
-          })(window,document,'script','dataLayer','GTM-P7F3423');
+          (function temp (w, d, s, l, i) {w[l] = w[l] || [];w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });let f = d.getElementsByTagName(s)[0],j = d.createElement(s),dl = l != "dataLayer" ? "&l=" + l : "";j.async = true;j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;f.parentNode.insertBefore(j, f);})(window,document,'script','dataLayer','GTM-P7F3423');
         </script>
       </Head>
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7F3423"
